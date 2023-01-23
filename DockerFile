@@ -2,6 +2,6 @@ FROM openjdk:8
 
 COPY target/first-docker-demo.jar /usr/app/
 
-WORKDIR /usr/app
+WORKDIR /usr/app/
 
 ENTRYPOINT ["java", "-jar", "first-docker-demo.jar"] 
